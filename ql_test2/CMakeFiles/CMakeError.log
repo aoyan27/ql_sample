@@ -1,0 +1,106 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec203795617/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec203795617.dir/build.make CMakeFiles/cmTryCompileExec203795617.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec203795617.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec203795617.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec203795617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec203795617.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec203795617.dir/CheckSymbolExists.c.o  -o cmTryCompileExec203795617 -rdynamic 
+CMakeFiles/cmTryCompileExec203795617.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec203795617] エラー 1
+make: *** [cmTryCompileExec203795617/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2206597073/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2206597073.dir/build.make CMakeFiles/cmTryCompileExec2206597073.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2206597073.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2206597073.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2206597073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2206597073.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2206597073.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2206597073 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2206597073] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2206597073/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec490469514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec490469514.dir/build.make CMakeFiles/cmTryCompileExec490469514.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec490469514.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec490469514.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec490469514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec490469514.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec490469514.dir/CheckSymbolExists.c.o  -o cmTryCompileExec490469514 -rdynamic 
+CMakeFiles/cmTryCompileExec490469514.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec490469514] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec490469514/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3105011487/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3105011487.dir/build.make CMakeFiles/cmTryCompileExec3105011487.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3105011487.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3105011487.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3105011487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3105011487.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3105011487.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3105011487 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/ql_sample/ql_test2/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec3105011487] エラー 1
+make: *** [cmTryCompileExec3105011487/fast] エラー 2
+
+

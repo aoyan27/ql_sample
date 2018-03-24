@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ql_test2
+Description: Description of ql_test2
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

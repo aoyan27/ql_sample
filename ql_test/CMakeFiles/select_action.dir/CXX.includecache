@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amsl/AMSL_ros_pkg/ql_sample/ql_test/src/select_action.cpp
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

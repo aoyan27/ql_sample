@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/amsl/AMSL_ros_pkg/ql_sample/ql_test/gtest/src -lpthread -Wl,-rpath,/home/amsl/AMSL_ros_pkg/ql_sample/ql_test/gtest/src 
